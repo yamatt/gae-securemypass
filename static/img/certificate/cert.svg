@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="426.55984"
+   height="261.42859"
+   id="svg4293"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="cert.svg"
+   inkscape:export-filename="/home/matt/projects/gae-securepass/certificate/cert.png"
+   inkscape:export-xdpi="31.672129"
+   inkscape:export-ydpi="31.672129">
+  <defs
+     id="defs4295" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-105.13127"
+     inkscape:cy="182.14287"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="508"
+     inkscape:window-height="434"
+     inkscape:window-x="0"
+     inkscape:window-y="57"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4298">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-118.14865,-224.50503)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#222222;fill-opacity:1;stroke:none"
+       d="m 148.49765,224.50503 365.86184,0 c 16.81335,0 30.34901,13.53565 30.34901,30.349 l 0,200.73058 c 0,16.81335 -13.53566,30.34901 -30.34901,30.34901 l -365.86184,0 c -16.81334,0 -30.349,-13.53566 -30.349,-30.34901 l 0,-200.73058 c 0,-16.81335 13.53566,-30.349 30.349,-30.349 z"
+       id="rect2985" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 140.281,273.43359 327.85714,-1.42857"
+       id="path3777"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g3767"
+       transform="translate(1649.9296,-527.50002)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2987"
+         y="796.96783"
+         x="-1511.4286"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Questrial;-inkscape-font-specification:Questrial"
+         xml:space="preserve"><tspan
+           y="796.96783"
+           x="-1511.4286"
+           id="tspan2989"
+           sodipodi:role="line">Secure</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text2991"
+         y="796.64783"
+         x="-1382.1392"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Questrial;-inkscape-font-specification:Questrial"
+         xml:space="preserve"><tspan
+           style="fill:#f1be44;fill-opacity:1"
+           y="796.64783"
+           x="-1382.1392"
+           id="tspan2993"
+           sodipodi:role="line">My</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3763"
+         y="796.64783"
+         x="-1325"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Questrial;-inkscape-font-specification:Questrial"
+         xml:space="preserve"><tspan
+           y="796.64783"
+           x="-1325"
+           id="tspan3765"
+           sodipodi:role="line">Pass</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#ffffff;stroke-width:0.95932782;stroke-opacity:1"
+       d="m 154.13082,231.09953 354.59549,0 c 16.29561,0 29.41445,12.85278 29.41445,28.8179 l 0,190.60379 c 0,15.96512 -13.11884,28.8179 -29.41445,28.8179 l -354.59549,0 c -16.29559,0 -29.41443,-12.85278 -29.41443,-28.8179 l 0,-190.60379 c 0,-15.96512 13.11884,-28.8179 29.41443,-28.8179 z"
+       id="rect2985-9" />
+  </g>
+</svg>

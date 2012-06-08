@@ -1,4 +1,4 @@
-HASHES = [
+HASHING = [
         (3, 'No'),
         (2, 'SHA-1'),
         (1, 'SHA-256'),
@@ -8,10 +8,10 @@ HASHES = [
         (0, 'scrypt'),
         (2, 'Custom'),
 ]
-HASHES_RESULTS = [
+HASHING_RESULTS = [
     """bcrypt and scrypt are about the best hasing tools out there. This doesn't mean it can't be broken, but at least if you were breaking passwords in bulk it's going to take significatnly longer than other means.""",
-    """Not a bad start. Although these hashing algroythems are very strong you get advantages with bcrypt and scrypt such as running them""",
-    """SHA-1 and MD5 hashes are notoriously broken. Even the creator of said hashes has said so himself. Rolling your own hashing algorythem is also a bad idea because you don't know how broken it is.""",
+    """Not a bad start. Although these hashing algorithms are very strong you get advantages with bcrypt and scrypt such as running them""",
+    """SHA-1 and MD5 hashes are notoriously broken. Even the creator of said hashes has said so himself. Rolling your own hashing algorithms is also a bad idea because you don't know how broken it is.""",
     """This is a BAD idea. Unenrypted passwords are a huge security lapse. Especially when it is so easy to apply a modicome of security. Think about the expense Sony had to deal with when their PSN network went down.""",
 ]
 

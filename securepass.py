@@ -27,6 +27,7 @@ from webapp2 import RequestHandler, WSGIApplication
 import jinja2
 from os import path
 from forms import CertificateForm
+import choices
 
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(path.join(path.dirname(__file__), "templates")))
@@ -51,8 +52,22 @@ class CertPage(RequestHandler):
     def get(self):
         results = CertificateForm(self.request.params)
         if results.validate():
+            results_page = [
+                {
+                    'type': "E-mail",
+                    'result': choices.EMAILING_RESULTS[results.email.data]
+                },
+                {
+                    'type': "Hashing",
+                    'result': choices.HASHING_RESULTS[results.hashing.data]
+                },
+                {
+                    'type': "Salting",
+                    'result': choices.SALTING_RESULTS[results.salting.data]
+                }
+            ]
             template = jinja_environment.get_template('cert.tmp.html')
-            self.response.out.write(template.render())
+            self.response.out.write(template.render(results=results_page))
         else:
             self.response.redirect("/")
 
