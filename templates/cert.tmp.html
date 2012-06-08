@@ -1,0 +1,13 @@
+{% extends "base.tmp.html" %}
+{% block title %}Certificate{% endblock %}
+
+{% block content %}
+<p>So how did it go?</p>
+{% for result in results %}
+<h4>{{ result.type }}</h4>
+<p>{{ result.message }}</p>
+{% endfor %}
+<h4>Never Forget</h4>
+<p>Hashing algorythems are design to slow down the brute forching of a compromised password system. It'll never be perfect as computer speeds increase but there are things you can do to mitigate any ill will if (when) your database gets compromised.</p>
+<p>There also seems to be a direct correlation between the the strength of hashes used on a password and how easy they are to crack. So if you did well at this then you will have also most likely thought about the other security issues of your system.</p>
+{% endblock %}

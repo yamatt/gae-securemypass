@@ -1,0 +1,13 @@
+{% extends "base.tmp.html" %}
+{% block title %}Certify{% endblock %}
+
+{% block content %}
+{{ super() }}
+<p>Select from the lists below the closest match for the tools you apply to your passwords.</p>
+<form method="get" action="certificate">
+{% for field in form %}
+    <label><span>{{ field.label.text }}:</span>{{ field }}</label>
+{% endfor %}
+<button type="submit">Submit</button>
+</form>
+{% endblock %}
